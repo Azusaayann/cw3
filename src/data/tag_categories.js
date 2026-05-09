@@ -2,7 +2,7 @@ const userDefinedTagCategories = {
 	"classification": {
 		"description": "Sub-section of the literature review"
 	},
-	"evaluation": {
+	"type": {
 		"description": "Type of evaluation used"
 	},
 	"year": {
