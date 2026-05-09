@@ -5,7 +5,7 @@ const generatedBibEntries = {
         "booktitle": "Proceedings of EMNLP 2020",
         "year": "2020",
         "doi": "10.18653/v1/2020.emnlp-main.550",
-        "keywords": "classification:foundations_of_rag, evaluation:software_performance, year:2020, dense_retrieval, open_domain_qa, dual_encoder, bert",
+        "keywords": "classification:foundations_of_rag, type:software_performance, year:2020, dense_retrieval, open_domain_qa, dual_encoder, bert",
         "abstract": "DPR uses two BERT encoders trained with in-batch negatives to retrieve relevant passages for open-domain question answering. It outperforms BM25 by 9 to 19 percent in top-20 accuracy across five QA datasets including Natural Questions and TriviaQA.",
         "series": "EMNLP",
         "type": "inproceedings"
@@ -16,7 +16,7 @@ const generatedBibEntries = {
         "booktitle": "Findings of EMNLP 2021",
         "year": "2021",
         "doi": "10.18653/v1/2021.findings-emnlp.232",
-        "keywords": "classification:foundations_of_rag, evaluation:software_performance, year:2021, code_generation, code_summarization, redcoder",
+        "keywords": "classification:foundations_of_rag, type:software_performance, year:2021, code_generation, code_summarization, redcoder",
         "abstract": "REDCODER extends RAG to code generation and code summarization tasks. It shows that retrieved code does not need to match the target exactly to help the model produce better outputs, demonstrating RAG can transfer beyond open-domain QA.",
         "series": "EMNLP Findings",
         "type": "inproceedings"
@@ -27,7 +27,7 @@ const generatedBibEntries = {
         "journal": "IEEE Access",
         "year": "2022",
         "doi": "10.1109/ACCESS.2022.3228964",
-        "keywords": "classification:foundations_of_rag, evaluation:software_performance, year:2022, dialogue, conversational_ai, reddit, knowledge_grounded",
+        "keywords": "classification:foundations_of_rag, type:software_performance, year:2022, dialogue, conversational_ai, reddit, knowledge_grounded",
         "abstract": "This paper applies RAG to in-the-wild conversational data from Reddit. The model combines global topic keywords from the whole conversation with local context to retrieve documents and generate grounded responses, even when no ground truth knowledge labels are available.",
         "series": "IEEE Access",
         "type": "article"
@@ -38,7 +38,7 @@ const generatedBibEntries = {
         "booktitle": "Proceedings of EMNLP 2023",
         "year": "2023",
         "doi": "10.18653/v1/2023.emnlp-main.495",
-        "keywords": "classification:adaptive_rag, evaluation:software_performance, year:2023, active_retrieval, flare, long_form_generation",
+        "keywords": "classification:adaptive_rag, type:software_performance, year:2023, active_retrieval, flare, long_form_generation",
         "abstract": "FLARE introduces active retrieval where the model triggers a new retrieval whenever its next-token probability falls below a threshold. The query is built from what the model is about to write rather than what it already wrote, which is the key innovation.",
         "series": "EMNLP",
         "type": "inproceedings"
@@ -49,7 +49,7 @@ const generatedBibEntries = {
         "journal": "Bioinformatics",
         "year": "2024",
         "doi": "10.1093/bioinformatics/btae238",
-        "keywords": "classification:adaptive_rag, evaluation:software_performance, year:2024, medical_qa, self_reflection, self_biorag, domain_specific",
+        "keywords": "classification:adaptive_rag, type:software_performance, year:2024, medical_qa, self_reflection, self_biorag, domain_specific",
         "abstract": "Self-BioRAG adapts the Self-RAG self-reflection mechanism to the medical domain by replacing the general retriever with MedCPT and Wikipedia with PubMed and clinical guidelines. The 7B model outperforms general-purpose models of the same size on USMLE-style questions by 7.2 percent.",
         "series": "Bioinformatics",
         "type": "article"
@@ -60,7 +60,7 @@ const generatedBibEntries = {
         "booktitle": "Proceedings of KDD 2024",
         "year": "2024",
         "doi": "10.1145/3637528.3671470",
-        "keywords": "classification:advanced_architectures, evaluation:literature_review, year:2024, survey, taxonomy, augmentation_methods",
+        "keywords": "classification:advanced_architectures, type:literature_review, year:2024, survey, taxonomy, augmentation_methods",
         "abstract": "This KDD 2024 survey systematically reviews RAG methods combined with LLMs. It introduces three classification dimensions: architecture, training strategies, and application scenarios. The augmentation taxonomy of input, intermediate, and output layer integration is widely cited.",
         "series": "KDD",
         "type": "inproceedings"
@@ -71,7 +71,7 @@ const generatedBibEntries = {
         "booktitle": "Proceedings of ACM SIGIR 2024",
         "year": "2024",
         "doi": "10.1145/3626772.3661370",
-        "keywords": "classification:advanced_architectures, evaluation:case_study, year:2024, knowledge_graph, customer_service, linkedin, industrial_application",
+        "keywords": "classification:advanced_architectures, type:case_study, year:2024, knowledge_graph, customer_service, linkedin, industrial_application",
         "abstract": "LinkedIn parses each Jira ticket into a tree and connects all tickets into a graph. Retrieval finds subgraphs instead of text chunks, preserving internal structure and explicit ticket relationships. The system reduced real ticket resolution time by 28.6 percent in production.",
         "series": "SIGIR",
         "type": "inproceedings"
@@ -82,7 +82,7 @@ const generatedBibEntries = {
         "booktitle": "Proceedings of the ACM Web Conference 2025",
         "year": "2025",
         "doi": "10.1145/3696410.3714805",
-        "keywords": "classification:advanced_architectures, evaluation:software_performance, year:2025, long_context, memory, dual_system, memorag",
+        "keywords": "classification:advanced_architectures, type:software_performance, year:2025, long_context, memory, dual_system, memorag",
         "abstract": "MemoRAG handles tasks where queries cannot be searched directly, such as full-book summarisation. A lightweight model first compresses the long text into KV memory, generates a draft answer as the retrieval query, then locates precise evidence from the original text.",
         "series": "WWW",
         "type": "inproceedings"
@@ -93,7 +93,7 @@ const generatedBibEntries = {
         "booktitle": "Proceedings of CAIN 2024",
         "year": "2024",
         "doi": "10.1145/3644815.3644945",
-        "keywords": "classification:engineering_evaluation, evaluation:case_study, year:2024, failure_modes, system_engineering, deployment",
+        "keywords": "classification:engineering_evaluation, type:case_study, year:2024, failure_modes, system_engineering, deployment",
         "abstract": "This paper summarises seven typical failure modes from three real RAG deployments. Two key insights: real RAG problems only emerge after deployment, and robustness must be built incrementally rather than designed upfront. The case studies expose evaluation difficulties.",
         "series": "CAIN",
         "type": "inproceedings"
@@ -104,7 +104,7 @@ const generatedBibEntries = {
         "booktitle": "Findings of NAACL 2025",
         "year": "2025",
         "doi": "10.18653/v1/2025.findings-naacl.157",
-        "keywords": "classification:engineering_evaluation, evaluation:software_performance, year:2025, benchmark, evaluation_metrics, mirage",
+        "keywords": "classification:engineering_evaluation, type:software_performance, year:2025, benchmark, evaluation_metrics, mirage",
         "abstract": "MIRAGE is a benchmark dataset designed for fine-grained RAG evaluation. It splits accuracy into four metrics including noise vulnerability and context misinterpretation, and reduces the retrieval pool from millions to 37,800 to make evaluation accessible to small teams.",
         "series": "NAACL Findings",
         "type": "inproceedings"
